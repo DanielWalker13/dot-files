@@ -1,0 +1,11 @@
+.NERDTreeBookmarks
+.aliases
+.bash_profile
+.bashrc
+.kuberlr
+.pylintrc
+.tcshrc
+.tmux.conf
+.tmux.conf.local
+.vimrc
+.zshrc

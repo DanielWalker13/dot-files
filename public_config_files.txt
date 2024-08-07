@@ -1,0 +1,15 @@
+configstore
+gcloud
+copilot
+languageserver
+htop
+iterm2
+lua
+lvim
+plugin
+ranger
+yarn
+ini
+init
+pycodestyle
+
