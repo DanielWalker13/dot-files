@@ -29,7 +29,6 @@ alias vim=nvim
 alias coe=aws-fed login coe-dev && export AWS_PROFILE='saml'
 alias tunzip=tar zxvf
 alias gctl=glooctl
-alias mgwr=sudo /usr/local/McAfee/Mcp/bin/mcpcontrol.sh restart
 alias ff=nvim $(fzf)
 alias gtfr=grep -r 'resource \"' .
 alias sadev=aws-fed login assure-dev && export AWS_PROFILE='saml'
