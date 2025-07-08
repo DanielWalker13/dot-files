@@ -3,14 +3,6 @@ echo "[zshrc] $PATH"
 # Source aliases
 [ -f ~/.aliases ] && source ~/.aliases
 
-# PATH and tools
-export PATH="$HOME/.asdf/shims:$PATH"
-export PATH="$HOME/.local/bin:$PATH"
-export PATH="$HOME/go/bin:$PATH"
-export PATH="/usr/local/go/bin:$PATH"
-export PATH="$HOME/.rd/bin:$PATH"  # Rancher Desktop
-export PATH="$ANDROID_HOME/emulator:$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools:$PATH"
-
 # Android
 export ANDROID_HOME="$HOME/Library/Android/sdk"
 
