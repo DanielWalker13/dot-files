@@ -55,17 +55,11 @@ Plug 'cometsong/CommentFrame.vim'
 " ----------------------------------------------------------------------------
 
 
-Plug 'zerowidth/vim-copy-as-rtf'
 " TODO: Eval Markdown Plugin
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 
-" TODO: Eval Markdown Draw Plugin - is it really needed if markdown plug is good?
-" Plug 'Scuilion/markdown-drawer'                                     " Renders Markdown
-"
-" Plug 'blueyed/vim-diminactive'                                      " Dimms Splits
 " TODO: harpoon is only for neovim - Investigate alternitive for vim
-" Plug 'ThePrimeagen/harpoon'                                         " Marks per project - Workflow enhancement
 Plug 'tpope/vim-commentary'                                         " Commentary - Enhanced commenting
 Plug 'rosenfeld/conque-term'                                        " Conque    - Shell in vim
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -75,11 +69,11 @@ Plug 'myusuf3/numbers.vim'                                          " Numbers   
 Plug 'axiaoxin/vim-json-line-format'                                " Pretty Json - Plugin to format <leader>wj
 Plug 'fisadev/vim-isort'                                            " Python Sort - Automatically sort python imports
 Plug 'tpope/vim-surround'                                           " Surround - quick surrond of elements
-Plug 'vimwiki/vimwiki'                                              " Vimwiki - Imbedded note taking structure
 
 " TODO: Eval - if bad remove pluggin settings
-Plug 'kien/tabman.vim'                                              " Tabman - Tab list panel - worth it?
-
+" Plug 'kien/tabman.vim'                                              " Tabman - Tab list panel - worth it?
+" Plug 'blueyed/vim-diminactive'                                      " Dimms Splits
+" Plug 'zerowidth/vim-copy-as-rtf'
 
 " ----------------------------------------------------------------------------
 " Application

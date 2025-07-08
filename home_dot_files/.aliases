@@ -30,7 +30,6 @@ alias coe=aws-fed login coe-dev && export AWS_PROFILE='saml'
 alias tunzip=tar zxvf
 alias gctl=glooctl
 alias mgwr=sudo /usr/local/McAfee/Mcp/bin/mcpcontrol.sh restart
-alias mgws=curl 'http://wdccipmon01.internal.cigna.com/ticket/index.php' && sleep 600
 alias ff=nvim $(fzf)
 alias gtfr=grep -r 'resource \"' .
 alias sadev=aws-fed login assure-dev && export AWS_PROFILE='saml'

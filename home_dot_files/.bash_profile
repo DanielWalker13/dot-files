@@ -10,3 +10,5 @@ alias ls='ls -GFh'
 ### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
 export PATH="/Users/rant/.rd/bin:$PATH"
 ### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
+
+complete -C /Users/danielwalker/.asdf/installs/terraform/1.10.5/bin/terraform terraform
